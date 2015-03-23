@@ -24,4 +24,9 @@ public class Calculadora {
 			System.out.println("Nenhum numero é divisivel por ZERO.");
 	}
 	
+	//Metodo de Raiz Quadrada
+	void multiplicar(double a) {
+		System.out.println("\nResultado: Raiz Quadrada de " + a + " = " + Math.sqrt(a));
+	}
+	
 }
