@@ -25,7 +25,7 @@ public class Calculadora {
 	}
 	
 	//Metodo de Raiz Quadrada
-	void multiplicar(double a) {
+	void raizQuadrada(double a) {
 		System.out.println("\nResultado: Raiz Quadrada de " + a + " = " + Math.sqrt(a));
 	}
 	
