@@ -5,6 +5,8 @@ public class Main {
 		System.out.println("\n...Calculadora...\n");
 		
 		//Corrigindo um bug...
+		
+		InterfaceCalculadora ic = new InterfaceCalculadora();
 	}
 	
 }
