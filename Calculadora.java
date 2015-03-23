@@ -18,7 +18,10 @@ public class Calculadora {
 	
 	//Metodo de Divisão
 	void dividir(int a, int b) {
-		System.out.println("\nResultado: " + a + " / " + b + " = " + (a/b));
+		if (b != 0)
+			System.out.println("\nResultado: " + a + " / " + b + " = " + (a/b));
+		else
+			System.out.println("Nenhum numero é divisivel por ZERO.");
 	}
 	
 }
